@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d262c;
+}
+.main {
+    width: 500px;
+}
+form {
+    border: 3px solid #f1f1f1;
+    border-radius: 2%;
+    background-color: white;
+}
