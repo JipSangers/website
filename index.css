@@ -16,3 +16,39 @@ form {
     border-radius: 2%;
     background-color: white;
 }
+.imageContainer {
+    padding: 16px;
+    text-align: center;
+}
+.userContainer {
+    padding: 16px;
+}
+.footerContainer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #1d262c;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.cancelBtn {
+    width: 100px;
+    background-color: #c7170a;
+}
+button:hover, button:active {
+    opacity: 0.8;
+}
